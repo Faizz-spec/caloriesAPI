@@ -1,6 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
 
 // Masukkan API key langsung di sini
 require('dotenv').config(); // Memuat variabel lingkungan dari .env file
