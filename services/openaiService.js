@@ -28,7 +28,7 @@ exports.detectFood = async (imagePath) => {
             content: [
               {
                 type: 'text',
-                text: 'Gambar ini makanan apa kira kira berapa gram beratnya dan berapa estimasi kalorinya (dalam angka saja)?'
+                text: 'Gambar ini makanan apa kira kira,dari ukurannya dan berapa estimasi kalorinya (dalam angka saja)?'
               },
               {
                 type: 'image_url',
