@@ -13,13 +13,6 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // Fungsi untuk mengirim gambar
 exports.detectFood = async (imagePath) => {
-  const apiKey = OPENAI_API_KEY; // Menggunakan API key dari .env
-
-  // 🔥 Convert image ke base64
-  const imageData = fs.readFileSync(imagePath);
-  const base64Image = imageData.toString('base64');
-// Fungsi untuk mengirim gambar
-exports.detectFood = async (imagePath) => {
   const apiKey = OPENAI_API_KEY;
 
   
@@ -83,4 +76,4 @@ exports.detectFood = async (imagePath) => {
 };
 
 
-};
+
